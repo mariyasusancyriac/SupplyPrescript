@@ -1,0 +1,1001 @@
+shipment_id,supplier_name,shipment_mode,transit_path,transit_days,weather_score,is_delayed
+1,Apex Logistics,Ocean,Asia-Europe,22,4,1
+2,Apex Logistics,Ocean,LatAm-US_Gulf,28,1,1
+3,Global Freight Co,Air Freight,LatAm-US_Gulf,2,9,0
+4,Atlas Supply,Trucking,Europe-US_East,6,10,0
+5,Apex Logistics,Air Freight,US_Domestic,4,5,0
+6,Pacific Line,Ocean,Asia-US_West,27,2,1
+7,Pacific Line,Rail,Asia-US_West,14,9,1
+8,Nordic Carriers,Ocean,LatAm-US_Gulf,24,10,0
+9,Pacific Line,Air Freight,Asia-US_West,2,4,0
+10,Apex Logistics,Air Freight,Asia-US_West,5,5,0
+11,Pacific Line,Air Freight,Asia-Europe,4,4,0
+12,Apex Logistics,Air Freight,LatAm-US_Gulf,3,3,1
+13,Pacific Line,Air Freight,Asia-Europe,2,4,0
+14,Pacific Line,Trucking,Asia-Europe,3,4,0
+15,Atlas Supply,Rail,Europe-US_East,14,7,0
+16,Nordic Carriers,Air Freight,Asia-Europe,3,4,0
+17,Atlas Supply,Rail,LatAm-US_Gulf,13,10,0
+18,Global Freight Co,Air Freight,LatAm-US_Gulf,5,2,0
+19,Apex Logistics,Air Freight,Europe-US_East,5,10,1
+20,Nordic Carriers,Trucking,LatAm-US_Gulf,5,9,0
+21,Apex Logistics,Ocean,LatAm-US_Gulf,23,6,1
+22,Nordic Carriers,Air Freight,US_Domestic,2,5,0
+23,Global Freight Co,Ocean,Asia-Europe,35,9,0
+24,Global Freight Co,Rail,Europe-US_East,7,10,0
+25,Apex Logistics,Ocean,Asia-Europe,24,4,1
+26,Atlas Supply,Ocean,Asia-US_West,30,2,0
+27,Atlas Supply,Air Freight,Europe-US_East,5,9,0
+28,Atlas Supply,Trucking,Europe-US_East,7,4,0
+29,Nordic Carriers,Rail,US_Domestic,14,2,1
+30,Apex Logistics,Rail,Asia-US_West,10,10,0
+31,Apex Logistics,Ocean,Europe-US_East,17,1,0
+32,Apex Logistics,Air Freight,Asia-Europe,5,4,0
+33,Atlas Supply,Trucking,Europe-US_East,6,7,0
+34,Apex Logistics,Trucking,Asia-Europe,6,7,0
+35,Apex Logistics,Ocean,Asia-US_West,27,6,0
+36,Apex Logistics,Air Freight,Europe-US_East,3,9,0
+37,Nordic Carriers,Air Freight,Asia-Europe,5,4,0
+38,Apex Logistics,Trucking,LatAm-US_Gulf,3,1,0
+39,Atlas Supply,Ocean,Asia-US_West,22,3,1
+40,Nordic Carriers,Air Freight,US_Domestic,2,3,1
+41,Nordic Carriers,Rail,US_Domestic,11,7,0
+42,Atlas Supply,Trucking,Europe-US_East,4,5,0
+43,Apex Logistics,Ocean,Asia-Europe,16,1,0
+44,Atlas Supply,Air Freight,Asia-US_West,2,3,1
+45,Apex Logistics,Air Freight,US_Domestic,2,10,0
+46,Atlas Supply,Ocean,LatAm-US_Gulf,17,7,0
+47,Atlas Supply,Rail,Asia-Europe,10,6,0
+48,Nordic Carriers,Air Freight,Asia-Europe,5,6,0
+49,Apex Logistics,Ocean,US_Domestic,34,10,0
+50,Apex Logistics,Air Freight,LatAm-US_Gulf,4,3,0
+51,Apex Logistics,Air Freight,Asia-Europe,4,3,1
+52,Atlas Supply,Rail,LatAm-US_Gulf,7,9,0
+53,Apex Logistics,Air Freight,Asia-Europe,2,2,0
+54,Global Freight Co,Rail,Asia-Europe,10,6,0
+55,Pacific Line,Trucking,Asia-Europe,3,2,0
+56,Pacific Line,Ocean,Asia-US_West,25,3,1
+57,Pacific Line,Air Freight,US_Domestic,5,9,1
+58,Apex Logistics,Air Freight,LatAm-US_Gulf,2,6,0
+59,Global Freight Co,Trucking,Europe-US_East,3,5,0
+60,Apex Logistics,Rail,Europe-US_East,10,2,1
+61,Atlas Supply,Trucking,LatAm-US_Gulf,4,4,0
+62,Global Freight Co,Trucking,Asia-US_West,4,6,0
+63,Nordic Carriers,Air Freight,Asia-Europe,3,2,1
+64,Apex Logistics,Trucking,Europe-US_East,4,8,0
+65,Global Freight Co,Air Freight,Asia-US_West,3,7,0
+66,Apex Logistics,Rail,Asia-Europe,13,9,0
+67,Apex Logistics,Ocean,Asia-Europe,20,10,0
+68,Pacific Line,Ocean,Asia-US_West,34,7,1
+69,Pacific Line,Trucking,LatAm-US_Gulf,7,2,1
+70,Atlas Supply,Air Freight,Asia-Europe,2,7,1
+71,Atlas Supply,Air Freight,Asia-Europe,5,2,0
+72,Pacific Line,Rail,Asia-US_West,11,9,0
+73,Nordic Carriers,Rail,US_Domestic,11,9,1
+74,Nordic Carriers,Trucking,Europe-US_East,7,10,0
+75,Atlas Supply,Ocean,Asia-Europe,24,4,0
+76,Atlas Supply,Rail,US_Domestic,14,8,0
+77,Atlas Supply,Trucking,Europe-US_East,3,5,0
+78,Atlas Supply,Rail,Asia-US_West,10,5,0
+79,Global Freight Co,Air Freight,Asia-US_West,2,4,0
+80,Atlas Supply,Ocean,US_Domestic,28,10,1
+81,Nordic Carriers,Trucking,US_Domestic,4,3,0
+82,Apex Logistics,Ocean,US_Domestic,22,3,0
+83,Atlas Supply,Trucking,Asia-US_West,7,4,0
+84,Apex Logistics,Trucking,Europe-US_East,6,9,0
+85,Atlas Supply,Rail,US_Domestic,13,9,0
+86,Global Freight Co,Trucking,US_Domestic,5,4,0
+87,Pacific Line,Trucking,Europe-US_East,5,8,1
+88,Pacific Line,Air Freight,Asia-Europe,4,6,0
+89,Apex Logistics,Air Freight,Europe-US_East,3,7,0
+90,Global Freight Co,Ocean,US_Domestic,28,6,0
+91,Nordic Carriers,Ocean,Europe-US_East,28,7,0
+92,Atlas Supply,Ocean,LatAm-US_Gulf,27,8,1
+93,Pacific Line,Rail,US_Domestic,13,9,0
+94,Atlas Supply,Air Freight,US_Domestic,3,5,0
+95,Apex Logistics,Trucking,Asia-Europe,6,3,0
+96,Global Freight Co,Ocean,US_Domestic,33,10,0
+97,Apex Logistics,Trucking,Europe-US_East,6,3,1
+98,Nordic Carriers,Rail,Europe-US_East,14,6,0
+99,Nordic Carriers,Rail,US_Domestic,11,2,1
+100,Atlas Supply,Ocean,Asia-Europe,22,2,0
+101,Apex Logistics,Ocean,Europe-US_East,21,1,1
+102,Global Freight Co,Air Freight,US_Domestic,2,10,0
+103,Nordic Carriers,Rail,Asia-Europe,9,10,0
+104,Apex Logistics,Air Freight,Asia-Europe,2,10,1
+105,Pacific Line,Trucking,US_Domestic,4,2,0
+106,Global Freight Co,Ocean,Asia-Europe,34,2,0
+107,Atlas Supply,Ocean,Asia-Europe,32,7,0
+108,Apex Logistics,Rail,Asia-US_West,13,8,1
+109,Pacific Line,Trucking,Europe-US_East,6,3,0
+110,Pacific Line,Trucking,US_Domestic,6,10,0
+111,Global Freight Co,Ocean,Asia-Europe,29,4,0
+112,Atlas Supply,Trucking,Asia-Europe,3,8,0
+113,Global Freight Co,Trucking,Europe-US_East,5,5,0
+114,Atlas Supply,Rail,LatAm-US_Gulf,7,9,0
+115,Apex Logistics,Air Freight,US_Domestic,5,9,0
+116,Nordic Carriers,Trucking,US_Domestic,3,2,1
+117,Nordic Carriers,Air Freight,Asia-Europe,4,8,0
+118,Pacific Line,Trucking,LatAm-US_Gulf,5,6,0
+119,Pacific Line,Rail,Asia-Europe,10,2,0
+120,Pacific Line,Ocean,LatAm-US_Gulf,20,4,0
+121,Nordic Carriers,Rail,LatAm-US_Gulf,11,2,0
+122,Pacific Line,Air Freight,Asia-Europe,3,5,1
+123,Atlas Supply,Air Freight,Asia-Europe,2,1,0
+124,Global Freight Co,Trucking,Asia-US_West,3,10,0
+125,Nordic Carriers,Trucking,Asia-Europe,4,1,1
+126,Nordic Carriers,Ocean,Asia-US_West,27,8,1
+127,Apex Logistics,Air Freight,Europe-US_East,4,2,0
+128,Apex Logistics,Trucking,LatAm-US_Gulf,7,10,0
+129,Atlas Supply,Trucking,US_Domestic,6,5,0
+130,Nordic Carriers,Rail,LatAm-US_Gulf,7,10,0
+131,Apex Logistics,Air Freight,Europe-US_East,4,2,1
+132,Global Freight Co,Ocean,Europe-US_East,15,7,0
+133,Atlas Supply,Trucking,Asia-Europe,3,4,0
+134,Pacific Line,Trucking,Asia-US_West,4,5,0
+135,Atlas Supply,Air Freight,US_Domestic,2,9,0
+136,Global Freight Co,Rail,Europe-US_East,8,1,1
+137,Pacific Line,Rail,US_Domestic,8,8,0
+138,Nordic Carriers,Rail,LatAm-US_Gulf,14,8,1
+139,Apex Logistics,Trucking,Asia-Europe,7,5,1
+140,Global Freight Co,Ocean,Asia-Europe,33,1,0
+141,Global Freight Co,Trucking,LatAm-US_Gulf,6,5,0
+142,Atlas Supply,Trucking,US_Domestic,3,8,0
+143,Pacific Line,Rail,Asia-US_West,9,6,0
+144,Nordic Carriers,Rail,US_Domestic,7,8,1
+145,Pacific Line,Rail,Asia-US_West,13,9,0
+146,Apex Logistics,Trucking,US_Domestic,3,4,0
+147,Atlas Supply,Trucking,US_Domestic,3,4,0
+148,Global Freight Co,Rail,US_Domestic,14,2,1
+149,Atlas Supply,Air Freight,Europe-US_East,4,9,1
+150,Nordic Carriers,Ocean,Europe-US_East,18,8,0
+151,Global Freight Co,Trucking,Asia-Europe,7,5,0
+152,Nordic Carriers,Trucking,Europe-US_East,6,9,1
+153,Global Freight Co,Air Freight,Asia-US_West,4,7,0
+154,Atlas Supply,Rail,Asia-US_West,11,5,0
+155,Atlas Supply,Trucking,Europe-US_East,6,9,0
+156,Pacific Line,Trucking,US_Domestic,5,4,0
+157,Global Freight Co,Trucking,Europe-US_East,6,1,1
+158,Nordic Carriers,Trucking,US_Domestic,4,8,0
+159,Global Freight Co,Rail,Asia-US_West,14,2,0
+160,Nordic Carriers,Ocean,Europe-US_East,28,3,1
+161,Pacific Line,Rail,LatAm-US_Gulf,13,2,0
+162,Atlas Supply,Trucking,Asia-Europe,6,9,1
+163,Apex Logistics,Air Freight,Asia-Europe,3,2,1
+164,Apex Logistics,Ocean,US_Domestic,20,5,0
+165,Apex Logistics,Rail,Asia-US_West,11,6,0
+166,Global Freight Co,Air Freight,LatAm-US_Gulf,5,10,0
+167,Global Freight Co,Air Freight,Europe-US_East,2,10,0
+168,Atlas Supply,Air Freight,US_Domestic,3,4,0
+169,Pacific Line,Trucking,Asia-Europe,3,8,0
+170,Atlas Supply,Air Freight,Asia-US_West,5,6,0
+171,Pacific Line,Trucking,Asia-Europe,6,5,0
+172,Nordic Carriers,Trucking,Asia-US_West,4,7,0
+173,Atlas Supply,Rail,Asia-Europe,7,7,0
+174,Atlas Supply,Ocean,LatAm-US_Gulf,30,5,0
+175,Global Freight Co,Rail,Europe-US_East,10,10,0
+176,Global Freight Co,Ocean,Asia-US_West,24,8,1
+177,Pacific Line,Air Freight,Asia-US_West,4,6,0
+178,Global Freight Co,Air Freight,Europe-US_East,4,9,0
+179,Pacific Line,Air Freight,Asia-Europe,5,5,0
+180,Pacific Line,Ocean,US_Domestic,17,3,0
+181,Global Freight Co,Trucking,LatAm-US_Gulf,5,2,0
+182,Apex Logistics,Rail,LatAm-US_Gulf,8,8,0
+183,Pacific Line,Trucking,Asia-Europe,3,4,0
+184,Atlas Supply,Rail,LatAm-US_Gulf,10,2,0
+185,Nordic Carriers,Rail,US_Domestic,8,3,1
+186,Apex Logistics,Rail,US_Domestic,8,2,1
+187,Atlas Supply,Air Freight,US_Domestic,5,6,0
+188,Atlas Supply,Trucking,LatAm-US_Gulf,4,7,0
+189,Nordic Carriers,Trucking,Asia-Europe,3,6,0
+190,Nordic Carriers,Air Freight,Asia-Europe,2,6,0
+191,Pacific Line,Ocean,US_Domestic,23,4,0
+192,Nordic Carriers,Ocean,Europe-US_East,35,10,0
+193,Apex Logistics,Rail,Europe-US_East,9,10,0
+194,Atlas Supply,Air Freight,LatAm-US_Gulf,3,4,0
+195,Global Freight Co,Ocean,Asia-Europe,19,3,0
+196,Global Freight Co,Ocean,Asia-US_West,19,1,1
+197,Global Freight Co,Rail,Asia-US_West,9,5,1
+198,Nordic Carriers,Ocean,Asia-US_West,30,8,0
+199,Atlas Supply,Ocean,US_Domestic,31,4,0
+200,Apex Logistics,Rail,US_Domestic,7,1,0
+201,Nordic Carriers,Trucking,Asia-US_West,6,8,1
+202,Apex Logistics,Rail,LatAm-US_Gulf,9,2,1
+203,Atlas Supply,Rail,US_Domestic,11,8,0
+204,Nordic Carriers,Ocean,Asia-US_West,35,9,0
+205,Global Freight Co,Trucking,US_Domestic,4,7,0
+206,Nordic Carriers,Trucking,US_Domestic,3,6,0
+207,Pacific Line,Rail,Europe-US_East,14,2,1
+208,Apex Logistics,Ocean,US_Domestic,18,6,0
+209,Atlas Supply,Ocean,LatAm-US_Gulf,32,9,1
+210,Apex Logistics,Trucking,Asia-Europe,6,1,0
+211,Atlas Supply,Rail,Asia-Europe,8,10,0
+212,Global Freight Co,Trucking,Europe-US_East,3,6,0
+213,Pacific Line,Ocean,Asia-Europe,33,4,0
+214,Atlas Supply,Ocean,LatAm-US_Gulf,23,1,1
+215,Pacific Line,Rail,Asia-Europe,7,3,0
+216,Atlas Supply,Trucking,Asia-US_West,4,1,1
+217,Atlas Supply,Air Freight,US_Domestic,5,8,0
+218,Pacific Line,Rail,Asia-Europe,8,1,1
+219,Atlas Supply,Ocean,Asia-US_West,23,8,0
+220,Nordic Carriers,Trucking,US_Domestic,5,4,0
+221,Apex Logistics,Rail,US_Domestic,8,5,0
+222,Atlas Supply,Trucking,LatAm-US_Gulf,5,1,1
+223,Atlas Supply,Ocean,Asia-US_West,21,5,0
+224,Global Freight Co,Rail,Asia-Europe,12,2,1
+225,Nordic Carriers,Air Freight,Europe-US_East,5,9,0
+226,Atlas Supply,Rail,Asia-US_West,13,1,1
+227,Nordic Carriers,Ocean,Asia-Europe,33,7,0
+228,Nordic Carriers,Rail,Asia-US_West,13,1,0
+229,Global Freight Co,Trucking,Asia-Europe,3,7,0
+230,Global Freight Co,Trucking,LatAm-US_Gulf,6,9,1
+231,Pacific Line,Rail,Europe-US_East,12,3,1
+232,Apex Logistics,Air Freight,Asia-Europe,4,3,1
+233,Global Freight Co,Rail,Europe-US_East,9,10,0
+234,Apex Logistics,Air Freight,US_Domestic,5,10,0
+235,Nordic Carriers,Rail,Asia-Europe,9,8,1
+236,Nordic Carriers,Rail,Asia-Europe,7,6,0
+237,Pacific Line,Trucking,US_Domestic,3,1,1
+238,Pacific Line,Ocean,Asia-US_West,34,10,0
+239,Nordic Carriers,Ocean,US_Domestic,33,4,1
+240,Nordic Carriers,Air Freight,Asia-US_West,5,2,0
+241,Pacific Line,Ocean,LatAm-US_Gulf,35,3,1
+242,Nordic Carriers,Trucking,LatAm-US_Gulf,7,10,0
+243,Pacific Line,Rail,US_Domestic,13,6,0
+244,Apex Logistics,Rail,Asia-US_West,12,2,0
+245,Nordic Carriers,Rail,Asia-Europe,9,6,1
+246,Global Freight Co,Rail,Asia-Europe,13,3,0
+247,Apex Logistics,Rail,LatAm-US_Gulf,13,6,0
+248,Atlas Supply,Ocean,US_Domestic,31,6,1
+249,Pacific Line,Air Freight,Europe-US_East,4,8,0
+250,Global Freight Co,Air Freight,Asia-US_West,4,2,0
+251,Atlas Supply,Ocean,Asia-Europe,34,3,1
+252,Global Freight Co,Air Freight,Europe-US_East,3,8,1
+253,Pacific Line,Air Freight,US_Domestic,4,8,0
+254,Global Freight Co,Rail,US_Domestic,10,6,0
+255,Atlas Supply,Trucking,US_Domestic,5,7,0
+256,Nordic Carriers,Air Freight,Europe-US_East,3,5,1
+257,Nordic Carriers,Rail,LatAm-US_Gulf,8,9,0
+258,Pacific Line,Ocean,Europe-US_East,23,8,0
+259,Global Freight Co,Trucking,Asia-US_West,4,8,0
+260,Apex Logistics,Trucking,Asia-US_West,6,9,0
+261,Nordic Carriers,Ocean,Asia-Europe,22,1,1
+262,Apex Logistics,Rail,Europe-US_East,9,1,1
+263,Nordic Carriers,Air Freight,US_Domestic,5,10,1
+264,Apex Logistics,Ocean,Asia-Europe,21,3,1
+265,Atlas Supply,Trucking,Asia-US_West,5,4,0
+266,Apex Logistics,Air Freight,US_Domestic,5,2,1
+267,Nordic Carriers,Ocean,LatAm-US_Gulf,33,4,0
+268,Pacific Line,Trucking,Asia-US_West,7,6,0
+269,Nordic Carriers,Air Freight,Asia-US_West,4,2,0
+270,Atlas Supply,Ocean,US_Domestic,30,1,1
+271,Pacific Line,Rail,Asia-US_West,12,2,1
+272,Apex Logistics,Rail,Europe-US_East,7,6,0
+273,Global Freight Co,Trucking,US_Domestic,4,3,1
+274,Nordic Carriers,Ocean,Asia-Europe,21,1,0
+275,Apex Logistics,Rail,Asia-Europe,13,9,0
+276,Apex Logistics,Air Freight,Asia-Europe,4,1,0
+277,Pacific Line,Rail,Asia-US_West,12,7,0
+278,Nordic Carriers,Trucking,Asia-Europe,4,8,0
+279,Pacific Line,Rail,Asia-US_West,13,2,1
+280,Global Freight Co,Rail,Asia-Europe,8,2,1
+281,Pacific Line,Rail,US_Domestic,13,3,0
+282,Pacific Line,Trucking,Asia-US_West,5,10,0
+283,Pacific Line,Ocean,Asia-US_West,35,7,1
+284,Global Freight Co,Ocean,Europe-US_East,34,8,1
+285,Apex Logistics,Air Freight,Asia-Europe,4,7,0
+286,Apex Logistics,Air Freight,US_Domestic,4,6,0
+287,Apex Logistics,Air Freight,LatAm-US_Gulf,4,7,0
+288,Pacific Line,Air Freight,Asia-US_West,2,3,1
+289,Nordic Carriers,Ocean,Asia-Europe,23,8,1
+290,Atlas Supply,Rail,US_Domestic,10,2,1
+291,Apex Logistics,Trucking,Europe-US_East,6,2,0
+292,Pacific Line,Rail,Asia-US_West,11,5,0
+293,Global Freight Co,Rail,LatAm-US_Gulf,10,2,0
+294,Global Freight Co,Air Freight,US_Domestic,2,6,0
+295,Pacific Line,Trucking,LatAm-US_Gulf,4,10,0
+296,Apex Logistics,Rail,US_Domestic,14,9,0
+297,Nordic Carriers,Ocean,Europe-US_East,25,2,1
+298,Atlas Supply,Rail,Europe-US_East,9,3,1
+299,Apex Logistics,Ocean,LatAm-US_Gulf,19,5,0
+300,Pacific Line,Air Freight,Asia-Europe,4,2,1
+301,Atlas Supply,Rail,Europe-US_East,11,10,0
+302,Atlas Supply,Air Freight,LatAm-US_Gulf,3,3,0
+303,Atlas Supply,Rail,LatAm-US_Gulf,7,1,1
+304,Atlas Supply,Rail,Europe-US_East,13,10,0
+305,Nordic Carriers,Rail,Asia-Europe,14,4,0
+306,Nordic Carriers,Rail,US_Domestic,8,1,1
+307,Nordic Carriers,Trucking,US_Domestic,4,6,0
+308,Pacific Line,Rail,Asia-Europe,13,3,0
+309,Atlas Supply,Ocean,Asia-Europe,22,8,1
+310,Nordic Carriers,Air Freight,Europe-US_East,2,1,1
+311,Nordic Carriers,Trucking,Europe-US_East,4,6,0
+312,Pacific Line,Air Freight,Europe-US_East,5,9,0
+313,Pacific Line,Trucking,Asia-US_West,3,7,0
+314,Global Freight Co,Air Freight,LatAm-US_Gulf,4,1,1
+315,Nordic Carriers,Trucking,Asia-Europe,7,1,0
+316,Nordic Carriers,Air Freight,Asia-Europe,4,7,0
+317,Nordic Carriers,Ocean,LatAm-US_Gulf,32,4,1
+318,Pacific Line,Ocean,US_Domestic,31,8,0
+319,Pacific Line,Ocean,Europe-US_East,18,7,0
+320,Pacific Line,Rail,Europe-US_East,10,10,0
+321,Atlas Supply,Ocean,Asia-US_West,16,3,0
+322,Nordic Carriers,Trucking,Europe-US_East,7,9,1
+323,Atlas Supply,Rail,Europe-US_East,13,10,0
+324,Pacific Line,Rail,LatAm-US_Gulf,14,10,0
+325,Apex Logistics,Rail,Asia-Europe,8,7,0
+326,Apex Logistics,Trucking,Asia-Europe,7,10,0
+327,Apex Logistics,Trucking,Europe-US_East,7,10,0
+328,Nordic Carriers,Air Freight,Europe-US_East,2,10,0
+329,Apex Logistics,Air Freight,Asia-US_West,5,6,0
+330,Nordic Carriers,Air Freight,US_Domestic,5,1,0
+331,Atlas Supply,Air Freight,LatAm-US_Gulf,4,8,0
+332,Pacific Line,Air Freight,US_Domestic,4,9,0
+333,Pacific Line,Trucking,Europe-US_East,4,5,0
+334,Global Freight Co,Rail,Asia-Europe,10,8,0
+335,Pacific Line,Rail,Asia-Europe,8,10,0
+336,Nordic Carriers,Trucking,Asia-Europe,4,5,1
+337,Apex Logistics,Rail,US_Domestic,11,8,0
+338,Atlas Supply,Rail,LatAm-US_Gulf,11,3,1
+339,Atlas Supply,Air Freight,Europe-US_East,2,9,0
+340,Global Freight Co,Ocean,Asia-US_West,28,6,0
+341,Apex Logistics,Air Freight,Asia-US_West,3,7,0
+342,Nordic Carriers,Trucking,Europe-US_East,5,6,0
+343,Apex Logistics,Ocean,LatAm-US_Gulf,22,9,0
+344,Apex Logistics,Air Freight,US_Domestic,3,1,0
+345,Nordic Carriers,Trucking,Europe-US_East,5,1,1
+346,Atlas Supply,Ocean,Asia-Europe,24,8,0
+347,Atlas Supply,Trucking,Europe-US_East,7,8,0
+348,Apex Logistics,Rail,Europe-US_East,14,5,0
+349,Apex Logistics,Rail,Asia-Europe,10,3,0
+350,Nordic Carriers,Trucking,LatAm-US_Gulf,5,2,1
+351,Apex Logistics,Air Freight,Europe-US_East,5,6,0
+352,Apex Logistics,Rail,US_Domestic,10,8,0
+353,Pacific Line,Rail,LatAm-US_Gulf,7,5,0
+354,Global Freight Co,Ocean,Asia-US_West,29,5,1
+355,Atlas Supply,Rail,Asia-US_West,11,6,0
+356,Global Freight Co,Air Freight,US_Domestic,3,8,0
+357,Atlas Supply,Rail,US_Domestic,14,9,0
+358,Global Freight Co,Air Freight,LatAm-US_Gulf,2,9,0
+359,Pacific Line,Ocean,LatAm-US_Gulf,18,1,0
+360,Atlas Supply,Air Freight,LatAm-US_Gulf,3,3,1
+361,Atlas Supply,Trucking,Asia-US_West,4,10,0
+362,Atlas Supply,Trucking,Asia-US_West,6,3,0
+363,Nordic Carriers,Ocean,LatAm-US_Gulf,29,5,0
+364,Nordic Carriers,Rail,Asia-US_West,10,10,1
+365,Nordic Carriers,Rail,Asia-US_West,7,2,0
+366,Nordic Carriers,Ocean,Asia-Europe,28,3,0
+367,Nordic Carriers,Rail,US_Domestic,14,7,0
+368,Atlas Supply,Air Freight,Asia-Europe,2,3,0
+369,Nordic Carriers,Air Freight,Europe-US_East,2,1,0
+370,Nordic Carriers,Trucking,LatAm-US_Gulf,6,4,0
+371,Pacific Line,Air Freight,Asia-Europe,3,2,1
+372,Nordic Carriers,Ocean,Europe-US_East,21,2,1
+373,Apex Logistics,Trucking,LatAm-US_Gulf,3,4,0
+374,Nordic Carriers,Trucking,Europe-US_East,7,4,0
+375,Apex Logistics,Air Freight,LatAm-US_Gulf,4,4,0
+376,Atlas Supply,Rail,LatAm-US_Gulf,12,4,0
+377,Global Freight Co,Air Freight,US_Domestic,4,5,1
+378,Atlas Supply,Air Freight,US_Domestic,5,1,0
+379,Nordic Carriers,Rail,US_Domestic,13,3,1
+380,Global Freight Co,Trucking,Europe-US_East,4,5,0
+381,Global Freight Co,Trucking,Asia-US_West,7,7,0
+382,Atlas Supply,Air Freight,US_Domestic,3,5,0
+383,Apex Logistics,Trucking,Asia-Europe,3,9,0
+384,Global Freight Co,Ocean,Asia-Europe,27,10,0
+385,Apex Logistics,Air Freight,LatAm-US_Gulf,3,8,0
+386,Pacific Line,Rail,Asia-US_West,10,4,0
+387,Apex Logistics,Trucking,Europe-US_East,7,4,0
+388,Global Freight Co,Rail,Asia-Europe,13,8,0
+389,Pacific Line,Rail,Asia-Europe,12,9,0
+390,Nordic Carriers,Ocean,US_Domestic,25,4,1
+391,Nordic Carriers,Ocean,LatAm-US_Gulf,22,3,1
+392,Atlas Supply,Trucking,Asia-Europe,4,4,0
+393,Nordic Carriers,Air Freight,US_Domestic,4,5,0
+394,Nordic Carriers,Trucking,US_Domestic,4,6,0
+395,Atlas Supply,Trucking,Europe-US_East,7,1,0
+396,Apex Logistics,Ocean,Asia-US_West,28,3,0
+397,Global Freight Co,Ocean,Europe-US_East,15,4,0
+398,Pacific Line,Ocean,LatAm-US_Gulf,35,10,0
+399,Nordic Carriers,Ocean,Asia-US_West,32,9,0
+400,Apex Logistics,Rail,LatAm-US_Gulf,11,1,0
+401,Nordic Carriers,Air Freight,Asia-US_West,2,9,1
+402,Global Freight Co,Rail,Asia-Europe,11,7,1
+403,Nordic Carriers,Trucking,LatAm-US_Gulf,4,4,0
+404,Apex Logistics,Ocean,Asia-US_West,27,7,1
+405,Nordic Carriers,Ocean,Asia-US_West,20,2,1
+406,Nordic Carriers,Rail,LatAm-US_Gulf,8,9,0
+407,Global Freight Co,Air Freight,LatAm-US_Gulf,5,5,1
+408,Apex Logistics,Rail,LatAm-US_Gulf,7,3,0
+409,Pacific Line,Ocean,Europe-US_East,33,3,0
+410,Nordic Carriers,Ocean,Asia-Europe,20,10,0
+411,Nordic Carriers,Rail,US_Domestic,9,2,0
+412,Pacific Line,Ocean,Asia-US_West,28,4,0
+413,Pacific Line,Trucking,Asia-Europe,3,5,0
+414,Nordic Carriers,Trucking,Europe-US_East,5,9,0
+415,Nordic Carriers,Air Freight,LatAm-US_Gulf,5,2,0
+416,Pacific Line,Air Freight,Asia-US_West,2,5,0
+417,Global Freight Co,Trucking,Asia-Europe,5,2,1
+418,Pacific Line,Trucking,Asia-Europe,5,2,1
+419,Global Freight Co,Trucking,US_Domestic,7,9,0
+420,Apex Logistics,Ocean,Asia-US_West,26,9,1
+421,Atlas Supply,Rail,US_Domestic,7,5,0
+422,Apex Logistics,Air Freight,LatAm-US_Gulf,3,7,0
+423,Pacific Line,Rail,Asia-Europe,14,3,1
+424,Nordic Carriers,Rail,US_Domestic,11,8,0
+425,Pacific Line,Rail,Europe-US_East,14,10,0
+426,Nordic Carriers,Ocean,Europe-US_East,24,1,0
+427,Pacific Line,Trucking,Asia-Europe,6,6,0
+428,Atlas Supply,Air Freight,Asia-Europe,4,10,0
+429,Global Freight Co,Trucking,Asia-Europe,4,7,0
+430,Pacific Line,Trucking,LatAm-US_Gulf,4,6,0
+431,Nordic Carriers,Rail,Asia-US_West,10,10,0
+432,Global Freight Co,Ocean,US_Domestic,21,8,0
+433,Apex Logistics,Trucking,US_Domestic,4,5,0
+434,Global Freight Co,Trucking,US_Domestic,3,8,0
+435,Nordic Carriers,Trucking,LatAm-US_Gulf,7,7,0
+436,Pacific Line,Ocean,Asia-US_West,22,6,1
+437,Atlas Supply,Ocean,LatAm-US_Gulf,35,7,0
+438,Pacific Line,Trucking,Asia-US_West,3,2,1
+439,Atlas Supply,Air Freight,US_Domestic,4,7,0
+440,Atlas Supply,Air Freight,Asia-Europe,2,8,1
+441,Nordic Carriers,Ocean,Asia-US_West,19,6,0
+442,Nordic Carriers,Air Freight,LatAm-US_Gulf,5,6,0
+443,Nordic Carriers,Trucking,Asia-Europe,3,5,1
+444,Apex Logistics,Ocean,Asia-Europe,35,2,1
+445,Global Freight Co,Air Freight,LatAm-US_Gulf,3,9,0
+446,Atlas Supply,Trucking,US_Domestic,4,7,0
+447,Global Freight Co,Trucking,US_Domestic,3,10,0
+448,Nordic Carriers,Trucking,US_Domestic,3,4,0
+449,Apex Logistics,Ocean,LatAm-US_Gulf,20,6,0
+450,Nordic Carriers,Ocean,Asia-Europe,30,9,0
+451,Pacific Line,Trucking,LatAm-US_Gulf,6,10,1
+452,Pacific Line,Trucking,LatAm-US_Gulf,4,5,0
+453,Atlas Supply,Ocean,Europe-US_East,25,2,1
+454,Apex Logistics,Air Freight,Asia-Europe,3,9,0
+455,Atlas Supply,Air Freight,LatAm-US_Gulf,5,7,0
+456,Atlas Supply,Air Freight,LatAm-US_Gulf,3,8,0
+457,Global Freight Co,Rail,US_Domestic,7,6,0
+458,Nordic Carriers,Air Freight,Europe-US_East,5,9,0
+459,Nordic Carriers,Trucking,US_Domestic,6,8,0
+460,Apex Logistics,Ocean,Europe-US_East,24,1,1
+461,Atlas Supply,Rail,Europe-US_East,14,10,0
+462,Nordic Carriers,Ocean,LatAm-US_Gulf,18,5,0
+463,Pacific Line,Ocean,US_Domestic,32,4,0
+464,Apex Logistics,Air Freight,Asia-Europe,2,8,0
+465,Apex Logistics,Trucking,Asia-US_West,4,4,0
+466,Atlas Supply,Rail,LatAm-US_Gulf,13,3,0
+467,Global Freight Co,Air Freight,Asia-US_West,4,9,0
+468,Atlas Supply,Air Freight,Asia-Europe,4,5,0
+469,Atlas Supply,Ocean,Europe-US_East,28,1,0
+470,Global Freight Co,Air Freight,Europe-US_East,3,6,0
+471,Nordic Carriers,Trucking,Europe-US_East,7,5,0
+472,Nordic Carriers,Trucking,Asia-US_West,3,7,0
+473,Pacific Line,Rail,US_Domestic,14,6,0
+474,Apex Logistics,Trucking,Asia-Europe,3,9,0
+475,Nordic Carriers,Air Freight,US_Domestic,4,6,0
+476,Pacific Line,Air Freight,LatAm-US_Gulf,5,6,0
+477,Apex Logistics,Ocean,Asia-US_West,35,8,1
+478,Global Freight Co,Trucking,US_Domestic,3,7,0
+479,Global Freight Co,Rail,Europe-US_East,11,2,0
+480,Pacific Line,Ocean,Asia-Europe,35,3,1
+481,Pacific Line,Air Freight,US_Domestic,2,2,1
+482,Nordic Carriers,Ocean,Europe-US_East,33,4,0
+483,Nordic Carriers,Ocean,Asia-US_West,25,2,0
+484,Nordic Carriers,Air Freight,US_Domestic,2,4,0
+485,Apex Logistics,Ocean,Asia-Europe,26,5,1
+486,Global Freight Co,Air Freight,Asia-US_West,2,10,0
+487,Nordic Carriers,Rail,Europe-US_East,9,7,0
+488,Nordic Carriers,Air Freight,Asia-US_West,2,3,0
+489,Atlas Supply,Trucking,Asia-Europe,6,6,0
+490,Global Freight Co,Rail,Asia-US_West,10,9,0
+491,Atlas Supply,Rail,Asia-US_West,11,4,0
+492,Atlas Supply,Air Freight,US_Domestic,4,1,0
+493,Global Freight Co,Trucking,US_Domestic,3,4,0
+494,Atlas Supply,Ocean,LatAm-US_Gulf,15,6,0
+495,Global Freight Co,Trucking,LatAm-US_Gulf,6,6,0
+496,Global Freight Co,Trucking,Asia-US_West,3,10,1
+497,Pacific Line,Air Freight,Asia-US_West,2,7,0
+498,Atlas Supply,Trucking,US_Domestic,6,2,0
+499,Atlas Supply,Air Freight,Asia-Europe,2,5,1
+500,Global Freight Co,Air Freight,LatAm-US_Gulf,4,7,0
+501,Apex Logistics,Rail,US_Domestic,10,1,1
+502,Nordic Carriers,Ocean,US_Domestic,34,10,1
+503,Global Freight Co,Ocean,Asia-US_West,19,1,1
+504,Pacific Line,Rail,Europe-US_East,12,3,0
+505,Pacific Line,Ocean,Asia-US_West,25,7,1
+506,Apex Logistics,Rail,LatAm-US_Gulf,8,8,0
+507,Pacific Line,Ocean,US_Domestic,33,3,1
+508,Pacific Line,Ocean,LatAm-US_Gulf,18,4,0
+509,Apex Logistics,Ocean,Asia-US_West,22,1,1
+510,Nordic Carriers,Air Freight,Europe-US_East,2,9,0
+511,Nordic Carriers,Air Freight,Asia-Europe,3,7,0
+512,Pacific Line,Rail,Asia-US_West,12,2,0
+513,Apex Logistics,Air Freight,Europe-US_East,2,7,1
+514,Nordic Carriers,Rail,Asia-Europe,12,2,0
+515,Apex Logistics,Rail,Europe-US_East,11,10,0
+516,Atlas Supply,Air Freight,US_Domestic,4,10,0
+517,Global Freight Co,Air Freight,Europe-US_East,2,7,1
+518,Atlas Supply,Rail,Asia-US_West,12,1,0
+519,Nordic Carriers,Rail,Asia-US_West,10,9,0
+520,Nordic Carriers,Trucking,Asia-US_West,4,5,1
+521,Global Freight Co,Trucking,Asia-Europe,6,2,0
+522,Atlas Supply,Air Freight,US_Domestic,2,10,0
+523,Nordic Carriers,Air Freight,Europe-US_East,4,5,0
+524,Nordic Carriers,Rail,Asia-Europe,14,5,0
+525,Global Freight Co,Air Freight,LatAm-US_Gulf,2,3,1
+526,Nordic Carriers,Trucking,Asia-Europe,6,2,0
+527,Global Freight Co,Trucking,Asia-Europe,6,5,0
+528,Apex Logistics,Air Freight,Asia-Europe,2,4,0
+529,Pacific Line,Air Freight,Asia-US_West,3,6,0
+530,Apex Logistics,Rail,Asia-Europe,9,1,0
+531,Nordic Carriers,Air Freight,Asia-US_West,5,2,0
+532,Global Freight Co,Ocean,Asia-US_West,16,4,1
+533,Nordic Carriers,Rail,Asia-US_West,11,2,1
+534,Apex Logistics,Air Freight,US_Domestic,3,2,0
+535,Pacific Line,Ocean,Asia-US_West,29,1,1
+536,Atlas Supply,Trucking,US_Domestic,6,1,1
+537,Nordic Carriers,Air Freight,Asia-Europe,3,3,1
+538,Nordic Carriers,Air Freight,Asia-US_West,3,5,0
+539,Atlas Supply,Trucking,Asia-US_West,3,5,0
+540,Nordic Carriers,Air Freight,LatAm-US_Gulf,3,9,0
+541,Nordic Carriers,Rail,US_Domestic,14,6,0
+542,Atlas Supply,Rail,US_Domestic,11,3,1
+543,Atlas Supply,Air Freight,Asia-US_West,4,1,0
+544,Nordic Carriers,Rail,LatAm-US_Gulf,10,3,1
+545,Global Freight Co,Rail,LatAm-US_Gulf,7,4,0
+546,Nordic Carriers,Rail,Europe-US_East,9,4,0
+547,Pacific Line,Ocean,Asia-Europe,33,10,1
+548,Global Freight Co,Trucking,LatAm-US_Gulf,5,3,1
+549,Apex Logistics,Ocean,Europe-US_East,34,4,1
+550,Nordic Carriers,Ocean,Asia-Europe,34,4,0
+551,Pacific Line,Air Freight,Asia-Europe,2,1,1
+552,Global Freight Co,Ocean,LatAm-US_Gulf,26,2,1
+553,Nordic Carriers,Ocean,Asia-Europe,24,6,1
+554,Global Freight Co,Trucking,US_Domestic,5,3,0
+555,Atlas Supply,Rail,Europe-US_East,9,7,0
+556,Pacific Line,Air Freight,Europe-US_East,2,10,0
+557,Atlas Supply,Ocean,Europe-US_East,34,6,0
+558,Atlas Supply,Air Freight,LatAm-US_Gulf,2,8,1
+559,Apex Logistics,Air Freight,Asia-Europe,4,3,0
+560,Apex Logistics,Rail,US_Domestic,7,5,0
+561,Apex Logistics,Rail,Asia-Europe,8,1,1
+562,Nordic Carriers,Trucking,Europe-US_East,6,8,0
+563,Pacific Line,Trucking,Asia-US_West,6,10,0
+564,Global Freight Co,Air Freight,US_Domestic,2,1,1
+565,Pacific Line,Rail,Asia-US_West,8,6,0
+566,Nordic Carriers,Air Freight,Asia-US_West,2,6,0
+567,Atlas Supply,Trucking,Asia-US_West,6,3,0
+568,Nordic Carriers,Air Freight,Asia-US_West,2,6,0
+569,Global Freight Co,Trucking,LatAm-US_Gulf,7,5,0
+570,Pacific Line,Air Freight,Asia-US_West,2,7,0
+571,Nordic Carriers,Air Freight,Asia-US_West,4,1,1
+572,Pacific Line,Trucking,Europe-US_East,3,1,1
+573,Pacific Line,Ocean,US_Domestic,18,5,0
+574,Nordic Carriers,Trucking,Asia-Europe,3,9,0
+575,Pacific Line,Trucking,Asia-Europe,4,8,1
+576,Nordic Carriers,Trucking,Asia-Europe,4,5,0
+577,Global Freight Co,Ocean,Asia-US_West,26,9,0
+578,Atlas Supply,Air Freight,LatAm-US_Gulf,2,7,0
+579,Nordic Carriers,Trucking,LatAm-US_Gulf,4,8,0
+580,Nordic Carriers,Ocean,LatAm-US_Gulf,33,9,0
+581,Atlas Supply,Air Freight,Asia-US_West,5,3,0
+582,Global Freight Co,Air Freight,Europe-US_East,3,1,1
+583,Nordic Carriers,Air Freight,Europe-US_East,4,6,0
+584,Apex Logistics,Ocean,US_Domestic,32,7,0
+585,Pacific Line,Trucking,Asia-US_West,7,10,0
+586,Nordic Carriers,Ocean,US_Domestic,19,3,0
+587,Atlas Supply,Ocean,Asia-US_West,33,2,0
+588,Atlas Supply,Rail,US_Domestic,11,7,0
+589,Atlas Supply,Trucking,Asia-US_West,4,5,0
+590,Atlas Supply,Trucking,Asia-US_West,6,6,0
+591,Apex Logistics,Trucking,Asia-Europe,5,1,1
+592,Pacific Line,Rail,Asia-Europe,14,2,0
+593,Global Freight Co,Air Freight,Asia-Europe,5,6,0
+594,Nordic Carriers,Ocean,Europe-US_East,29,4,0
+595,Nordic Carriers,Trucking,LatAm-US_Gulf,5,1,0
+596,Global Freight Co,Ocean,Asia-Europe,31,7,1
+597,Atlas Supply,Ocean,Europe-US_East,21,4,0
+598,Global Freight Co,Ocean,US_Domestic,16,6,0
+599,Pacific Line,Rail,US_Domestic,13,2,0
+600,Global Freight Co,Rail,US_Domestic,14,3,0
+601,Nordic Carriers,Rail,Asia-Europe,9,5,0
+602,Apex Logistics,Rail,Asia-US_West,13,1,1
+603,Atlas Supply,Air Freight,Europe-US_East,3,4,0
+604,Nordic Carriers,Ocean,Asia-US_West,30,3,1
+605,Atlas Supply,Ocean,Europe-US_East,23,10,0
+606,Pacific Line,Rail,US_Domestic,13,6,0
+607,Global Freight Co,Trucking,Asia-Europe,7,10,0
+608,Apex Logistics,Ocean,LatAm-US_Gulf,26,9,0
+609,Atlas Supply,Rail,Asia-Europe,8,8,1
+610,Pacific Line,Rail,Asia-Europe,11,5,0
+611,Atlas Supply,Air Freight,Asia-US_West,5,6,0
+612,Apex Logistics,Trucking,Asia-Europe,5,7,0
+613,Apex Logistics,Air Freight,Asia-Europe,3,9,0
+614,Nordic Carriers,Rail,LatAm-US_Gulf,11,3,0
+615,Atlas Supply,Air Freight,Asia-Europe,2,8,1
+616,Pacific Line,Air Freight,Asia-Europe,2,4,0
+617,Pacific Line,Trucking,Asia-Europe,5,5,0
+618,Nordic Carriers,Ocean,US_Domestic,16,10,0
+619,Atlas Supply,Ocean,US_Domestic,21,9,1
+620,Nordic Carriers,Rail,US_Domestic,7,3,1
+621,Global Freight Co,Rail,US_Domestic,14,3,1
+622,Global Freight Co,Ocean,US_Domestic,25,3,1
+623,Apex Logistics,Ocean,US_Domestic,23,4,0
+624,Global Freight Co,Air Freight,US_Domestic,2,3,0
+625,Nordic Carriers,Trucking,US_Domestic,6,7,1
+626,Atlas Supply,Air Freight,Asia-Europe,2,6,0
+627,Atlas Supply,Air Freight,Asia-US_West,2,4,0
+628,Pacific Line,Rail,Europe-US_East,8,7,0
+629,Pacific Line,Air Freight,Asia-US_West,2,5,0
+630,Nordic Carriers,Rail,US_Domestic,9,6,0
+631,Nordic Carriers,Rail,Europe-US_East,9,7,1
+632,Global Freight Co,Air Freight,Europe-US_East,2,10,0
+633,Apex Logistics,Rail,Asia-US_West,13,5,0
+634,Atlas Supply,Ocean,LatAm-US_Gulf,16,2,0
+635,Apex Logistics,Ocean,Asia-US_West,28,8,1
+636,Atlas Supply,Rail,US_Domestic,9,4,0
+637,Apex Logistics,Rail,US_Domestic,8,9,0
+638,Atlas Supply,Air Freight,US_Domestic,2,9,0
+639,Apex Logistics,Rail,Asia-US_West,8,8,0
+640,Global Freight Co,Rail,LatAm-US_Gulf,10,6,0
+641,Pacific Line,Air Freight,Asia-US_West,5,4,0
+642,Nordic Carriers,Rail,Europe-US_East,7,1,0
+643,Apex Logistics,Trucking,Europe-US_East,3,9,1
+644,Apex Logistics,Rail,Europe-US_East,14,5,0
+645,Apex Logistics,Ocean,Europe-US_East,16,5,0
+646,Pacific Line,Trucking,Asia-US_West,3,1,1
+647,Global Freight Co,Air Freight,Asia-Europe,4,8,0
+648,Pacific Line,Ocean,Asia-Europe,25,3,1
+649,Nordic Carriers,Trucking,Asia-Europe,6,8,0
+650,Global Freight Co,Ocean,Europe-US_East,16,3,1
+651,Atlas Supply,Trucking,LatAm-US_Gulf,6,3,0
+652,Pacific Line,Ocean,Europe-US_East,30,8,1
+653,Nordic Carriers,Trucking,Asia-US_West,3,5,0
+654,Apex Logistics,Air Freight,Asia-Europe,2,7,0
+655,Global Freight Co,Trucking,Asia-Europe,6,3,0
+656,Atlas Supply,Ocean,Asia-US_West,35,3,1
+657,Nordic Carriers,Trucking,Europe-US_East,3,8,0
+658,Pacific Line,Rail,Asia-US_West,10,9,0
+659,Nordic Carriers,Air Freight,Asia-US_West,5,8,0
+660,Nordic Carriers,Ocean,US_Domestic,29,6,1
+661,Nordic Carriers,Ocean,Asia-US_West,27,7,1
+662,Atlas Supply,Ocean,Asia-US_West,34,10,0
+663,Atlas Supply,Air Freight,US_Domestic,4,6,0
+664,Global Freight Co,Trucking,Asia-Europe,7,10,0
+665,Pacific Line,Trucking,Asia-US_West,3,4,1
+666,Pacific Line,Rail,LatAm-US_Gulf,12,2,1
+667,Global Freight Co,Trucking,Europe-US_East,6,2,1
+668,Global Freight Co,Air Freight,Asia-US_West,5,4,0
+669,Global Freight Co,Rail,Asia-US_West,13,1,0
+670,Atlas Supply,Ocean,US_Domestic,29,10,0
+671,Global Freight Co,Trucking,Asia-US_West,7,1,0
+672,Nordic Carriers,Trucking,LatAm-US_Gulf,4,10,0
+673,Global Freight Co,Ocean,US_Domestic,34,10,0
+674,Atlas Supply,Trucking,US_Domestic,7,4,0
+675,Pacific Line,Rail,US_Domestic,9,3,1
+676,Atlas Supply,Rail,LatAm-US_Gulf,12,9,0
+677,Global Freight Co,Air Freight,LatAm-US_Gulf,4,6,0
+678,Global Freight Co,Air Freight,LatAm-US_Gulf,4,2,0
+679,Atlas Supply,Trucking,LatAm-US_Gulf,7,7,0
+680,Atlas Supply,Rail,US_Domestic,7,9,1
+681,Nordic Carriers,Air Freight,Asia-US_West,2,4,0
+682,Global Freight Co,Rail,Asia-Europe,9,1,0
+683,Pacific Line,Air Freight,LatAm-US_Gulf,2,6,0
+684,Apex Logistics,Air Freight,LatAm-US_Gulf,5,4,0
+685,Pacific Line,Ocean,US_Domestic,27,7,0
+686,Pacific Line,Ocean,Asia-US_West,23,4,0
+687,Nordic Carriers,Air Freight,Asia-Europe,3,4,0
+688,Global Freight Co,Ocean,Europe-US_East,20,9,1
+689,Apex Logistics,Trucking,Asia-Europe,7,5,1
+690,Atlas Supply,Rail,Asia-US_West,12,8,0
+691,Global Freight Co,Ocean,Europe-US_East,25,10,1
+692,Atlas Supply,Rail,US_Domestic,12,2,0
+693,Pacific Line,Air Freight,Europe-US_East,2,9,0
+694,Atlas Supply,Trucking,Asia-US_West,5,4,0
+695,Pacific Line,Rail,Asia-Europe,11,4,0
+696,Atlas Supply,Trucking,LatAm-US_Gulf,3,2,0
+697,Nordic Carriers,Air Freight,LatAm-US_Gulf,3,1,0
+698,Pacific Line,Trucking,Asia-US_West,6,5,0
+699,Pacific Line,Ocean,LatAm-US_Gulf,26,9,0
+700,Nordic Carriers,Trucking,Asia-US_West,5,4,0
+701,Apex Logistics,Ocean,Europe-US_East,32,9,1
+702,Apex Logistics,Air Freight,Europe-US_East,5,2,1
+703,Nordic Carriers,Ocean,Europe-US_East,15,8,0
+704,Apex Logistics,Ocean,Asia-US_West,16,3,0
+705,Atlas Supply,Ocean,LatAm-US_Gulf,22,5,0
+706,Nordic Carriers,Trucking,US_Domestic,5,1,1
+707,Apex Logistics,Ocean,LatAm-US_Gulf,17,10,1
+708,Apex Logistics,Rail,LatAm-US_Gulf,8,5,0
+709,Pacific Line,Ocean,Asia-Europe,29,7,1
+710,Apex Logistics,Trucking,Europe-US_East,7,4,1
+711,Nordic Carriers,Rail,Europe-US_East,11,6,0
+712,Apex Logistics,Air Freight,Asia-US_West,2,1,0
+713,Nordic Carriers,Ocean,Asia-Europe,21,6,1
+714,Atlas Supply,Air Freight,Europe-US_East,3,4,0
+715,Pacific Line,Air Freight,Asia-US_West,3,10,0
+716,Atlas Supply,Trucking,LatAm-US_Gulf,3,5,0
+717,Pacific Line,Ocean,Europe-US_East,33,8,0
+718,Pacific Line,Air Freight,Europe-US_East,2,5,0
+719,Global Freight Co,Rail,US_Domestic,14,6,0
+720,Pacific Line,Air Freight,LatAm-US_Gulf,4,6,0
+721,Global Freight Co,Ocean,Asia-Europe,22,4,0
+722,Nordic Carriers,Rail,Asia-Europe,9,6,0
+723,Nordic Carriers,Trucking,Asia-Europe,5,8,0
+724,Global Freight Co,Ocean,Asia-Europe,19,9,0
+725,Apex Logistics,Ocean,Asia-US_West,31,1,0
+726,Atlas Supply,Trucking,LatAm-US_Gulf,4,1,0
+727,Atlas Supply,Trucking,Europe-US_East,5,7,0
+728,Atlas Supply,Rail,Europe-US_East,14,9,0
+729,Nordic Carriers,Rail,LatAm-US_Gulf,7,4,0
+730,Atlas Supply,Air Freight,LatAm-US_Gulf,3,8,0
+731,Atlas Supply,Air Freight,US_Domestic,4,1,1
+732,Nordic Carriers,Air Freight,Asia-US_West,4,6,0
+733,Global Freight Co,Rail,US_Domestic,14,8,0
+734,Apex Logistics,Rail,Asia-US_West,11,5,0
+735,Atlas Supply,Air Freight,US_Domestic,5,6,0
+736,Apex Logistics,Rail,US_Domestic,10,9,0
+737,Pacific Line,Trucking,US_Domestic,7,1,0
+738,Global Freight Co,Trucking,Europe-US_East,4,2,0
+739,Pacific Line,Air Freight,Europe-US_East,3,3,1
+740,Apex Logistics,Air Freight,US_Domestic,4,2,1
+741,Nordic Carriers,Trucking,Europe-US_East,7,3,0
+742,Nordic Carriers,Ocean,Europe-US_East,16,3,0
+743,Global Freight Co,Air Freight,LatAm-US_Gulf,2,10,1
+744,Global Freight Co,Rail,Europe-US_East,13,10,0
+745,Apex Logistics,Rail,Asia-US_West,10,8,0
+746,Nordic Carriers,Trucking,Europe-US_East,4,7,0
+747,Atlas Supply,Air Freight,LatAm-US_Gulf,4,3,0
+748,Pacific Line,Trucking,LatAm-US_Gulf,7,2,1
+749,Nordic Carriers,Air Freight,Asia-US_West,2,4,0
+750,Atlas Supply,Trucking,Europe-US_East,7,2,1
+751,Atlas Supply,Ocean,LatAm-US_Gulf,31,2,1
+752,Global Freight Co,Ocean,US_Domestic,31,7,1
+753,Apex Logistics,Trucking,Europe-US_East,6,7,0
+754,Atlas Supply,Ocean,US_Domestic,19,5,0
+755,Global Freight Co,Ocean,Asia-Europe,34,9,0
+756,Global Freight Co,Ocean,Asia-US_West,33,9,1
+757,Apex Logistics,Trucking,Europe-US_East,5,7,0
+758,Global Freight Co,Trucking,LatAm-US_Gulf,5,5,0
+759,Nordic Carriers,Rail,LatAm-US_Gulf,11,7,0
+760,Nordic Carriers,Trucking,Europe-US_East,5,9,0
+761,Pacific Line,Rail,LatAm-US_Gulf,12,7,0
+762,Apex Logistics,Air Freight,US_Domestic,3,2,1
+763,Nordic Carriers,Rail,LatAm-US_Gulf,7,3,1
+764,Apex Logistics,Ocean,Europe-US_East,30,10,0
+765,Apex Logistics,Rail,Europe-US_East,12,2,0
+766,Nordic Carriers,Trucking,LatAm-US_Gulf,7,5,0
+767,Atlas Supply,Ocean,Europe-US_East,35,8,0
+768,Global Freight Co,Rail,Europe-US_East,7,10,0
+769,Global Freight Co,Air Freight,Asia-US_West,4,4,0
+770,Global Freight Co,Ocean,Asia-Europe,27,6,0
+771,Nordic Carriers,Air Freight,LatAm-US_Gulf,2,2,0
+772,Atlas Supply,Rail,LatAm-US_Gulf,12,6,0
+773,Pacific Line,Air Freight,LatAm-US_Gulf,3,8,0
+774,Atlas Supply,Ocean,Asia-Europe,20,7,0
+775,Atlas Supply,Ocean,LatAm-US_Gulf,24,6,0
+776,Atlas Supply,Rail,LatAm-US_Gulf,11,8,0
+777,Atlas Supply,Trucking,Europe-US_East,5,8,0
+778,Atlas Supply,Ocean,US_Domestic,18,5,1
+779,Global Freight Co,Air Freight,Asia-Europe,5,6,0
+780,Apex Logistics,Rail,Europe-US_East,11,2,1
+781,Pacific Line,Ocean,LatAm-US_Gulf,20,8,0
+782,Global Freight Co,Rail,Europe-US_East,10,8,0
+783,Global Freight Co,Air Freight,Asia-Europe,3,4,0
+784,Global Freight Co,Rail,Europe-US_East,8,2,0
+785,Nordic Carriers,Ocean,LatAm-US_Gulf,16,8,0
+786,Pacific Line,Trucking,LatAm-US_Gulf,5,8,0
+787,Atlas Supply,Rail,US_Domestic,10,10,1
+788,Atlas Supply,Trucking,US_Domestic,7,1,0
+789,Nordic Carriers,Air Freight,US_Domestic,2,9,0
+790,Apex Logistics,Ocean,Europe-US_East,27,10,1
+791,Pacific Line,Rail,Europe-US_East,11,4,0
+792,Atlas Supply,Rail,Asia-Europe,9,8,0
+793,Nordic Carriers,Rail,Asia-Europe,13,5,0
+794,Atlas Supply,Air Freight,LatAm-US_Gulf,3,2,0
+795,Global Freight Co,Trucking,US_Domestic,4,3,0
+796,Global Freight Co,Trucking,Asia-US_West,4,7,0
+797,Atlas Supply,Rail,US_Domestic,11,5,0
+798,Atlas Supply,Ocean,US_Domestic,18,3,1
+799,Pacific Line,Trucking,Asia-US_West,6,6,0
+800,Pacific Line,Rail,Asia-Europe,7,7,1
+801,Atlas Supply,Air Freight,LatAm-US_Gulf,3,5,0
+802,Atlas Supply,Trucking,US_Domestic,3,7,0
+803,Nordic Carriers,Air Freight,Europe-US_East,4,7,0
+804,Atlas Supply,Trucking,Asia-US_West,3,3,1
+805,Pacific Line,Rail,Asia-Europe,11,10,0
+806,Pacific Line,Trucking,Asia-Europe,7,9,0
+807,Nordic Carriers,Air Freight,Europe-US_East,2,3,0
+808,Pacific Line,Ocean,Europe-US_East,20,7,1
+809,Apex Logistics,Trucking,LatAm-US_Gulf,3,1,0
+810,Atlas Supply,Ocean,Asia-US_West,23,10,1
+811,Nordic Carriers,Rail,Europe-US_East,10,5,0
+812,Global Freight Co,Air Freight,LatAm-US_Gulf,3,1,1
+813,Pacific Line,Rail,US_Domestic,14,9,0
+814,Atlas Supply,Trucking,Europe-US_East,7,3,0
+815,Nordic Carriers,Trucking,LatAm-US_Gulf,7,5,0
+816,Nordic Carriers,Air Freight,Asia-US_West,5,5,0
+817,Pacific Line,Air Freight,Asia-Europe,2,1,0
+818,Global Freight Co,Rail,Asia-Europe,14,9,1
+819,Nordic Carriers,Trucking,Asia-Europe,3,7,0
+820,Atlas Supply,Air Freight,Asia-US_West,4,4,0
+821,Atlas Supply,Trucking,US_Domestic,4,3,0
+822,Nordic Carriers,Trucking,Europe-US_East,5,2,1
+823,Global Freight Co,Rail,Asia-Europe,11,7,0
+824,Apex Logistics,Air Freight,Europe-US_East,4,2,0
+825,Atlas Supply,Trucking,Asia-Europe,7,8,0
+826,Apex Logistics,Air Freight,Asia-US_West,2,3,0
+827,Pacific Line,Rail,Europe-US_East,14,1,1
+828,Global Freight Co,Ocean,US_Domestic,21,6,0
+829,Nordic Carriers,Rail,US_Domestic,7,6,1
+830,Global Freight Co,Ocean,Asia-Europe,27,2,1
+831,Global Freight Co,Air Freight,Asia-Europe,5,1,1
+832,Global Freight Co,Trucking,US_Domestic,4,1,1
+833,Apex Logistics,Air Freight,US_Domestic,5,5,0
+834,Global Freight Co,Ocean,LatAm-US_Gulf,31,2,1
+835,Pacific Line,Air Freight,Asia-Europe,2,4,0
+836,Global Freight Co,Trucking,Asia-Europe,3,3,0
+837,Atlas Supply,Ocean,US_Domestic,22,1,0
+838,Atlas Supply,Trucking,LatAm-US_Gulf,4,6,0
+839,Global Freight Co,Air Freight,US_Domestic,2,10,0
+840,Apex Logistics,Ocean,Asia-Europe,35,3,1
+841,Apex Logistics,Air Freight,US_Domestic,3,6,0
+842,Pacific Line,Trucking,Europe-US_East,3,7,0
+843,Global Freight Co,Rail,Asia-US_West,14,8,0
+844,Atlas Supply,Trucking,Europe-US_East,7,3,0
+845,Pacific Line,Trucking,Asia-Europe,7,9,0
+846,Atlas Supply,Air Freight,US_Domestic,4,5,0
+847,Nordic Carriers,Ocean,LatAm-US_Gulf,27,3,0
+848,Atlas Supply,Rail,LatAm-US_Gulf,10,6,0
+849,Atlas Supply,Trucking,Europe-US_East,7,8,0
+850,Global Freight Co,Rail,Asia-Europe,13,6,1
+851,Atlas Supply,Ocean,Asia-US_West,19,3,0
+852,Global Freight Co,Ocean,US_Domestic,21,2,1
+853,Nordic Carriers,Trucking,LatAm-US_Gulf,7,10,0
+854,Pacific Line,Air Freight,LatAm-US_Gulf,2,1,0
+855,Global Freight Co,Trucking,Asia-US_West,6,1,1
+856,Nordic Carriers,Rail,Asia-US_West,11,9,1
+857,Apex Logistics,Rail,Asia-US_West,10,9,1
+858,Global Freight Co,Trucking,Europe-US_East,4,9,0
+859,Atlas Supply,Air Freight,LatAm-US_Gulf,5,2,0
+860,Atlas Supply,Rail,US_Domestic,13,2,1
+861,Global Freight Co,Trucking,LatAm-US_Gulf,5,3,0
+862,Atlas Supply,Trucking,Asia-Europe,5,9,0
+863,Pacific Line,Rail,US_Domestic,13,6,0
+864,Atlas Supply,Air Freight,US_Domestic,4,6,0
+865,Nordic Carriers,Trucking,Asia-US_West,3,5,0
+866,Atlas Supply,Air Freight,Asia-Europe,2,5,0
+867,Global Freight Co,Rail,Asia-US_West,11,9,0
+868,Atlas Supply,Air Freight,Asia-US_West,2,8,0
+869,Global Freight Co,Rail,Asia-Europe,10,4,0
+870,Pacific Line,Ocean,LatAm-US_Gulf,27,10,0
+871,Apex Logistics,Rail,US_Domestic,9,8,0
+872,Atlas Supply,Ocean,LatAm-US_Gulf,35,5,1
+873,Atlas Supply,Trucking,Asia-US_West,3,6,0
+874,Nordic Carriers,Trucking,Asia-US_West,4,10,0
+875,Nordic Carriers,Ocean,Asia-Europe,31,1,1
+876,Atlas Supply,Air Freight,Asia-Europe,3,3,1
+877,Nordic Carriers,Trucking,LatAm-US_Gulf,7,9,1
+878,Nordic Carriers,Rail,US_Domestic,9,3,1
+879,Nordic Carriers,Ocean,LatAm-US_Gulf,27,5,1
+880,Atlas Supply,Trucking,Europe-US_East,4,8,0
+881,Nordic Carriers,Trucking,LatAm-US_Gulf,4,9,0
+882,Atlas Supply,Air Freight,Europe-US_East,2,5,0
+883,Pacific Line,Ocean,Asia-US_West,28,7,1
+884,Global Freight Co,Rail,Asia-Europe,7,5,0
+885,Pacific Line,Trucking,LatAm-US_Gulf,4,8,1
+886,Global Freight Co,Air Freight,Asia-Europe,3,2,1
+887,Apex Logistics,Air Freight,LatAm-US_Gulf,3,5,1
+888,Apex Logistics,Rail,US_Domestic,14,1,1
+889,Atlas Supply,Air Freight,Europe-US_East,4,9,0
+890,Global Freight Co,Ocean,US_Domestic,33,9,1
+891,Global Freight Co,Ocean,Asia-Europe,21,10,1
+892,Nordic Carriers,Ocean,Asia-US_West,27,5,0
+893,Pacific Line,Ocean,Asia-US_West,24,7,1
+894,Nordic Carriers,Ocean,Asia-Europe,30,10,0
+895,Global Freight Co,Air Freight,LatAm-US_Gulf,5,9,0
+896,Apex Logistics,Ocean,Europe-US_East,31,5,1
+897,Nordic Carriers,Air Freight,Asia-US_West,4,6,0
+898,Pacific Line,Air Freight,LatAm-US_Gulf,4,1,0
+899,Nordic Carriers,Ocean,LatAm-US_Gulf,23,4,1
+900,Nordic Carriers,Air Freight,Asia-US_West,5,9,0
+901,Atlas Supply,Air Freight,US_Domestic,3,10,0
+902,Pacific Line,Rail,US_Domestic,9,4,0
+903,Atlas Supply,Air Freight,Europe-US_East,4,9,0
+904,Nordic Carriers,Air Freight,LatAm-US_Gulf,3,6,1
+905,Atlas Supply,Ocean,Europe-US_East,25,3,1
+906,Pacific Line,Trucking,US_Domestic,5,8,0
+907,Pacific Line,Air Freight,Europe-US_East,2,3,1
+908,Atlas Supply,Rail,LatAm-US_Gulf,10,10,0
+909,Apex Logistics,Rail,Asia-US_West,14,3,0
+910,Atlas Supply,Trucking,Asia-Europe,4,7,0
+911,Global Freight Co,Air Freight,Europe-US_East,3,1,1
+912,Apex Logistics,Rail,US_Domestic,10,4,0
+913,Apex Logistics,Air Freight,US_Domestic,5,6,0
+914,Global Freight Co,Trucking,US_Domestic,3,10,0
+915,Nordic Carriers,Rail,US_Domestic,7,9,1
+916,Nordic Carriers,Ocean,Europe-US_East,31,9,1
+917,Apex Logistics,Trucking,LatAm-US_Gulf,3,4,0
+918,Nordic Carriers,Rail,Asia-Europe,14,3,1
+919,Atlas Supply,Ocean,LatAm-US_Gulf,19,8,0
+920,Nordic Carriers,Ocean,LatAm-US_Gulf,18,3,0
+921,Atlas Supply,Air Freight,US_Domestic,5,6,0
+922,Global Freight Co,Trucking,LatAm-US_Gulf,4,8,1
+923,Pacific Line,Air Freight,Asia-US_West,2,2,0
+924,Pacific Line,Ocean,LatAm-US_Gulf,27,9,0
+925,Global Freight Co,Trucking,LatAm-US_Gulf,6,1,0
+926,Pacific Line,Air Freight,Europe-US_East,3,3,0
+927,Apex Logistics,Trucking,Asia-Europe,5,8,0
+928,Global Freight Co,Ocean,Europe-US_East,21,1,1
+929,Pacific Line,Ocean,US_Domestic,30,8,0
+930,Apex Logistics,Trucking,Europe-US_East,4,10,0
+931,Nordic Carriers,Trucking,US_Domestic,3,10,0
+932,Global Freight Co,Rail,LatAm-US_Gulf,10,1,1
+933,Apex Logistics,Rail,Asia-US_West,9,1,0
+934,Atlas Supply,Rail,Asia-Europe,8,1,1
+935,Global Freight Co,Air Freight,Asia-Europe,3,8,0
+936,Pacific Line,Ocean,Asia-US_West,24,6,1
+937,Nordic Carriers,Ocean,US_Domestic,32,2,1
+938,Global Freight Co,Ocean,Asia-Europe,25,9,0
+939,Global Freight Co,Air Freight,LatAm-US_Gulf,2,2,0
+940,Atlas Supply,Ocean,US_Domestic,34,5,0
+941,Pacific Line,Rail,LatAm-US_Gulf,12,3,0
+942,Nordic Carriers,Trucking,US_Domestic,4,10,0
+943,Pacific Line,Air Freight,Asia-US_West,2,1,1
+944,Apex Logistics,Air Freight,LatAm-US_Gulf,5,7,1
+945,Pacific Line,Air Freight,Asia-US_West,3,5,0
+946,Apex Logistics,Rail,Asia-Europe,12,1,1
+947,Pacific Line,Rail,US_Domestic,7,3,1
+948,Pacific Line,Trucking,US_Domestic,3,3,1
+949,Nordic Carriers,Rail,US_Domestic,13,1,0
+950,Pacific Line,Rail,LatAm-US_Gulf,7,4,0
+951,Pacific Line,Rail,Asia-US_West,9,5,0
+952,Pacific Line,Trucking,LatAm-US_Gulf,4,10,0
+953,Global Freight Co,Ocean,Asia-Europe,25,1,1
+954,Apex Logistics,Trucking,Europe-US_East,5,8,0
+955,Pacific Line,Air Freight,LatAm-US_Gulf,4,3,1
+956,Apex Logistics,Air Freight,Asia-US_West,5,9,1
+957,Nordic Carriers,Air Freight,Europe-US_East,4,8,0
+958,Atlas Supply,Rail,Asia-Europe,9,2,0
+959,Atlas Supply,Air Freight,Europe-US_East,2,8,0
+960,Atlas Supply,Ocean,Asia-US_West,24,1,1
+961,Atlas Supply,Ocean,Asia-Europe,29,1,1
+962,Pacific Line,Ocean,LatAm-US_Gulf,24,4,1
+963,Global Freight Co,Rail,Asia-Europe,12,8,0
+964,Pacific Line,Air Freight,Europe-US_East,4,2,1
+965,Atlas Supply,Ocean,Europe-US_East,32,6,0
+966,Pacific Line,Air Freight,Asia-Europe,3,3,1
+967,Atlas Supply,Rail,LatAm-US_Gulf,14,1,1
+968,Nordic Carriers,Ocean,Asia-US_West,27,1,1
+969,Nordic Carriers,Air Freight,LatAm-US_Gulf,5,10,0
+970,Pacific Line,Air Freight,LatAm-US_Gulf,2,8,0
+971,Apex Logistics,Trucking,Asia-US_West,6,5,0
+972,Nordic Carriers,Trucking,Europe-US_East,4,3,0
+973,Atlas Supply,Rail,Asia-Europe,13,3,0
+974,Pacific Line,Rail,US_Domestic,14,1,1
+975,Apex Logistics,Rail,US_Domestic,14,3,1
+976,Pacific Line,Air Freight,LatAm-US_Gulf,2,7,0
+977,Apex Logistics,Rail,LatAm-US_Gulf,8,5,0
+978,Nordic Carriers,Trucking,Europe-US_East,7,4,0
+979,Nordic Carriers,Trucking,Asia-US_West,5,4,0
+980,Atlas Supply,Trucking,US_Domestic,7,6,0
+981,Global Freight Co,Air Freight,Asia-US_West,5,2,0
+982,Nordic Carriers,Rail,LatAm-US_Gulf,8,8,0
+983,Nordic Carriers,Ocean,LatAm-US_Gulf,18,10,0
+984,Nordic Carriers,Rail,US_Domestic,7,2,1
+985,Global Freight Co,Ocean,Europe-US_East,19,8,0
+986,Nordic Carriers,Trucking,Europe-US_East,4,6,0
+987,Pacific Line,Trucking,Asia-Europe,3,10,1
+988,Atlas Supply,Trucking,Europe-US_East,5,1,1
+989,Atlas Supply,Ocean,Asia-US_West,32,6,1
+990,Pacific Line,Ocean,Europe-US_East,28,10,1
+991,Pacific Line,Trucking,US_Domestic,6,7,0
+992,Global Freight Co,Trucking,Europe-US_East,4,9,0
+993,Pacific Line,Trucking,Europe-US_East,5,3,1
+994,Apex Logistics,Ocean,Europe-US_East,30,7,0
+995,Global Freight Co,Ocean,Europe-US_East,35,7,0
+996,Atlas Supply,Trucking,LatAm-US_Gulf,4,8,0
+997,Atlas Supply,Trucking,US_Domestic,5,4,0
+998,Atlas Supply,Ocean,LatAm-US_Gulf,30,4,0
+999,Pacific Line,Trucking,LatAm-US_Gulf,7,6,1
+1000,Apex Logistics,Trucking,Asia-Europe,3,10,0
