@@ -38,6 +38,7 @@ SupplyPrescript/
 │   └── shipments.csv      # Synthetic supply chain shipment logs
 ├── scripts/
 │   └── generate_data.py   # Dataset generator script
+│   └── train_model.py     # Predicts shipment delays using AI
 ├── models/                # Machine learning models & solvers (Week 1–2)
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
