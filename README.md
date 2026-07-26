@@ -203,7 +203,7 @@ py -m uvicorn app:app --reload
 
 ---
 
-### 📍 Terminal Tab #2: Start the Streamlit Control Tower UI
+###  Terminal Tab #2: Start the Streamlit Control Tower UI
 
 1. Open a **2nd terminal tab** (click the `+` icon in the terminal panel).
 
@@ -234,7 +234,7 @@ py -m streamlit run dashboard.py
 
 ---
 
-### 📍 Terminal Tab #3: Run Unit Tests & Retraining Pipeline
+###  Terminal Tab #3: Run Unit Tests & Retraining Pipeline
 
 Open a **3rd terminal tab** at the root project directory to run safety checks or model retraining whenever needed:
 
@@ -263,7 +263,7 @@ py scripts/retrain.py
 
 ---
 
-## 👥 Members & Contributors
+##  Members & Contributors
 
 * **Mariya Susan Cyriac** — Data Analyst Intern
 
