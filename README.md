@@ -1,7 +1,3 @@
-Here is a comprehensive, production-ready **README.md** file for your **SupplyPrescript** project. It covers everything done so far, setup/execution steps, tech stack, architecture, and team/contributor guidelines so anyone can clone and run it seamlessly.
-
----
-
 #  SupplyPrescript: Closed-Loop Prescriptive Supply Chain Analytics
 
 **SupplyPrescript** is an enterprise-grade, closed-loop prescriptive analytics system designed to transition supply chain operations from passive delay alerts to automated, mathematical decision-making.
@@ -280,7 +276,3 @@ py scripts/retrain.py
 
 
 ---
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
