@@ -1,94 +1,286 @@
-# 📦 SupplyPrescript: Closed-Loop Prescriptive Supply Chain Engine
-
-**SupplyPrescript** is an enterprise-grade, closed-loop prescriptive analytics platform that transitions supply chain management from passive delay predictions to automated, mathematical decision optimization.
+Here is a comprehensive, production-ready **README.md** file for your **SupplyPrescript** project. It covers everything done so far, setup/execution steps, tech stack, architecture, and team/contributor guidelines so anyone can clone and run it seamlessly.
 
 ---
 
-## 🏗️ Closed-Loop System Architecture
+#  SupplyPrescript: Closed-Loop Prescriptive Supply Chain Analytics
 
-[ 1. Data Generator ] ──► Generates 1,000 Historical Shipment Records (shipments.csv)
-│
-▼
-[ 2. Predictive AI Engine ] ──► XGBoost ML Model Predicts Delay Risks (train_model.py)
-│
-▼ (If Delay Predicted)
-[ 3. Prescriptive Engine ] ──► SciPy Optimization Engine Solves Trade-Off Options (solver.py)
-│
-▼
-[ 4. Web REST Backend ]    ──► FastAPI / Uvicorn API Engine Serves Endpoint (app.py)
-│
-▼
-[ 5. Relational Database ] ──► SQLite Database Stores System State (supply_chain.db)
+**SupplyPrescript** is an enterprise-grade, closed-loop prescriptive analytics system designed to transition supply chain operations from passive delay alerts to automated, mathematical decision-making.
+
+Instead of merely warning managers that a shipment is delayed , SupplyPrescript uses machine learning to predict disruption risks , calculates optimal recovery strategies using operations research algorithms , captures operator choices via an interactive control tower , and writes those choices back to the relational database to auto-retrain prediction models over time.
 
 ---
 
-## 🛠️ Tech Stack & Implementation Details
+##  System Architecture
 
-* **Language:** Python 3.10+
-* **Machine Learning:** XGBoost, Scikit-Learn, Joblib, Pandas
-* **Operations Research / Optimization:** SciPy (scipy.optimize)
-* **REST API Service:** FastAPI, Uvicorn, Pydantic
-* **Database Layer:** SQLite (supply_chain.db) initialized via ANSI SQL (schema.sql)
-* **Frontend Visualization:** Streamlit (Control Tower UI)
-* **Version Control:** Git & GitHub
+```text
+  ┌────────────────────────┐
+  │  Synthetic Logistics   │
+  │     Data Generation    │
+  └───────────┬────────────┘
+              │
+              ▼
+  ┌────────────────────────┐
+  │  XGBoost AI Classifier │ ───► Predicts Delay Risks (ON_TIME vs DELAY_PREDICTED)
+  └───────────┬────────────┘
+              │
+              ▼
+  ┌────────────────────────┐
+  │ SciPy Math Solver Engine│ ───► Prescribes 3 Budget-Constrained Options
+  └───────────┬────────────┘
+              │
+              ▼
+  ┌────────────────────────┐         ┌───────────────────────────────┐
+  │   FastAPI REST Engine  │ ◄────── │ Streamlit Control Tower UI    │
+  └───────────┬────────────┘         │ (Operator Action & Mutation)  │
+              │                      └───────────────────────────────┘
+              ▼
+  ┌────────────────────────┐
+  │ SQLite / DB Warehouse  │ ◄── [Write-Back Decision Logging]
+  └───────────┬────────────┘
+              │
+              └─────────────── (Closed-Loop Retraining Trigger) ───────────────► [Auto-Model Retrainer]
+
+```
 
 ---
 
-## 📁 Repository Directory Structure
+##  Tech Stack & Domain Framework
 
+* **Programming Language:** Python 3.10+ 
+
+
+* **Machine Learning:** XGBoost, Scikit-Learn, Pandas, NumPy, Joblib 
+
+
+* **Operations Research / Optimization:** SciPy (`scipy.optimize`), Linear Programming 
+
+
+* **Backend API Framework:** FastAPI, Uvicorn, Pydantic 
+
+
+* **Database & Persistence:** SQLite (`supply_chain.db`), ANSI SQL (`database/schema.sql`) 
+
+
+* **Frontend Control Tower:** Streamlit 
+
+
+* **Testing & Quality Assurance:** Python `unittest` / Unit Testing Suite 
+
+
+* **Version Control:** Git, GitHub (Feature Branching & Pull Requests) 
+
+
+
+---
+
+##  Repository Directory Structure
+
+```text
 SupplyPrescript/
 ├── database/
-│   ├── schema.sql                   # 5 relational table definitions (Shipments, Predictions, etc.)
-│   └── supply_chain.db              # Active initialized SQLite database engine
+│   ├── schema.sql           # Foundational 5-table relational schema definition
+│   └── supply_chain.db      # Live initialized SQLite database storage
 ├── data/
-│   └── shipments.csv                # 1,000 historical shipping records dataset
+│   └── shipments.csv        # Synthetic supply chain historical shipping dataset
 ├── models/
-│   ├── xgboost_delay_model.joblib   # Serialized XGBoost delay classification model
-│   └── model_features.joblib        # Preprocessed One-Hot Encoding feature layout
+│   ├── model_features.joblib       # Saved categorical feature list
+│   └── xgboost_delay_model.joblib  # Trained XGBoost classification model weights
 ├── scripts/
-│   ├── generate_data.py             # Synthetic supply chain data generation pipeline
-│   ├── train_model.py               # XGBoost model training and evaluation script
-│   ├── solver.py                    # SciPy prescriptive optimization engine
-│   └── app.py                       # FastAPI REST API serving live delay & solver endpoint
-└── README.md                        # Primary project documentation
+│   ├── generate_data.py     # Data generation pipeline (1,000 shipment rows)
+│   ├── train_model.py       # XGBoost classifier model training script
+│   ├── solver.py            # SciPy linear optimization decision engine
+│   ├── app.py               # FastAPI REST service & decision endpoint
+│   ├── dashboard.py         # Streamlit visual UI control tower
+│   └── retrain.py           # Closed-loop automated model retraining pipeline
+├── tests/
+│   └── test_solver.py       # Unit tests for mathematical safety constraints
+├── .gitignore               # Python version control exclusions
+├── requirements.txt         # Core Python dependencies
+└── README.md                # Project architecture & workflow documentation
+
+```
 
 ---
 
-## 📊 Core Functional Workflow
+##  Core Functionality & Work Done
 
-### 1. Database Initialization
+### 1. Relational Database Layer (`database/schema.sql`)
 
-database/schema.sql defines five interconnected tables supporting bidirectional data loops:
+Designed a 5-table relational database model with cascading constraints to support closed-loop write-back operations:
 
-* Shipments: Baseline lane logs & shipment parameters.
-* Predictions: Machine learning probability outputs.
-* Recommendations: SciPy solved trade-off operational paths.
-* Decisions: User dashboard choices.
-* Results: Real-world lead-time and invoice records for continuous retraining.
+1. **Shipments:** Relational anchor for route, supplier, and transit parameters.
 
-### 2. Predictive & Prescriptive Pipeline
 
-When a shipment is processed via the FastAPI backend (POST /predict-and-prescribe):
+2. **Predictions:** Foreign-key bound landing table for XGBoost ML delay risk probabilities.
 
-1. Predictive Engine (train_model.py): Evaluates transit days, shipment modes, suppliers, and weather severity scores to classify whether the shipment is ON_TIME (0) or DELAY_PREDICTED (1).
-2. Prescriptive Engine (solver.py): If a delay is detected, SciPy computes 3 solved mitigation paths subject to operational cost and time constraints:
-* Option A (Air Freight Expedite): Maximum time saved (Fastest / Premium Cost).
-* Option B (Secondary Vendor Reroute): Balanced cost and lead-time mitigation.
-* Option C (Accept Delay & Reschedule): Baseline scheduled arrival (Lowest Cost / Maximum Lead Time).
+
+3. **Recommendations:** Holds SciPy calculated decision trade-off alternatives.
+
+
+4. **Decisions:** Real-time mutation table capturing manager choices submitted through the dashboard.
+
+
+5. **Results:** Logs actual arrival dates, final invoice variances, and financial ROI to trigger model auto-retraining.
+
+
+### 2. Predictive Engine (`scripts/train_model.py`)
+
+Trains an XGBoost Classifier on shipping variables (supplier, transit mode, route path, lead days, weather severity) to predict whether a shipment will arrive on time (`ON_TIME`) or be delayed (`DELAY_PREDICTED`).
+
+### 3. Prescriptive Operations Research Engine (`scripts/solver.py`)
+
+Triggers automatically whenever a delay is detected. SciPy solves operational trade-offs subject to a maximum budget constraint (e.g., $20,000):
+
+* **Option A (Air Freight Expedite):** Maximum lead-time reduction (Fastest / Premium Cost).
+
+
+* **Option B (Secondary Vendor Reroute):** Balanced lead-time reduction and cost.
+
+
+* **Option C (Accept Delay & Reschedule):** Baseline scheduled arrival (Zero extra cost / Maximum Days).
+
+
+### 4. REST API Bridge (`scripts/app.py`)
+
+FastAPI web service serving endpoints at `http://127.0.0.1:8000`. Accepts shipment payloads, computes ML delay predictions, runs the SciPy solver on-the-fly, and exposes interactive Swagger documentation (`/docs`).
+
+### 5. Interactive Control Tower UI (`scripts/dashboard.py`)
+
+Streamlit dashboard built for supply chain managers to simulate shipment scenarios, view prescribed mitigation options, and write decisions directly back into the live SQLite database.
+
+### 6. Closed-Loop Auto-Retrainer & Safety Suite (`scripts/retrain.py`, `tests/test_solver.py`)
+
+* Includes automated unit tests verifying that solver equations never violate cost thresholds or output invalid metrics.
+
+
+* Implements a closed-loop trigger script that reads human choices and final invoice data to retrain the XGBoost baseline.
 
 
 
 ---
 
-## 🚀 How to Run the Project Locally
+##  How to Run the System (Step-by-Step for Contributors)
 
-### 1. Initialize the SQLite Database
+To run the complete system locally, open **3 separate terminal tabs** in Visual Studio Code:
 
-py -c "import sqlite3; conn = sqlite3.connect('database/supply_chain.db'); conn.executescript(open('database/schema.sql').read()); conn.close()"
+### Prerequisites & Installation
 
-### 2. Launch the FastAPI Backend Server
+Clone the repository and install all required Python packages:
 
+```bash
+git clone https://github.com/mariyasusancyriac/SupplyPrescript.git
+cd SupplyPrescript
+py -m pip install pandas numpy scikit-learn xgboost scipy fastapi uvicorn pydantic streamlit requests joblib
+
+```
+
+---
+
+###  Terminal Tab #1: Start the Backend API Engine
+
+1. Open VS Code Terminal (Ctrl + `).
+
+
+2. Navigate into the `scripts/` directory:
+
+
+```bash
 cd scripts
+
+```
+
+
+3. Start the FastAPI server:
+
+
+```bash
 py -m uvicorn app:app --reload
 
-* API Documentation (Swagger UI): Open browser at [http://127.0.0.1:8000/docs](https://www.google.com/search?q=http://127.0.0.1:8000/docs)
+```
+
+
+* The server will launch at `http://127.0.0.1:8000`. Keep this terminal tab running in the background! 
+
+
+
+
+
+---
+
+### 📍 Terminal Tab #2: Start the Streamlit Control Tower UI
+
+1. Open a **2nd terminal tab** (click the `+` icon in the terminal panel).
+
+
+2. Navigate into `scripts/`:
+
+
+```bash
+cd scripts
+
+```
+
+
+3. Launch the web dashboard:
+
+
+```bash
+py -m streamlit run dashboard.py
+
+```
+
+
+* Your web browser will automatically open the control panel at `http://localhost:8501`.
+
+
+
+
+
+---
+
+### 📍 Terminal Tab #3: Run Unit Tests & Retraining Pipeline
+
+Open a **3rd terminal tab** at the root project directory to run safety checks or model retraining whenever needed:
+
+* **Run Mathematical Safety Unit Tests:**
+```bash
+py tests/test_solver.py
+
+```
+
+
+
+(Verifies that optimization equations never violate hard business logic or return invalid costs).
+
+
+* **Trigger Closed-Loop Model Retraining:**
+```bash
+py scripts/retrain.py
+
+```
+
+
+
+(Feeds real manager choices and results back into XGBoost to retrain model weights).
+
+
+
+---
+
+## 👥 Members & Contributors
+
+* **Mariya Susan Cyriac** — Data Analyst Intern
+
+
+* **Jaswanth** — Data Analyst Intern
+
+
+* **Sekhar** — Data Analyst Intern
+
+
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
