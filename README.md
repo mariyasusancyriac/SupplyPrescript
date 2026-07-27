@@ -268,10 +268,10 @@ py scripts/retrain.py
 * **Mariya Susan Cyriac** — Data Analyst Intern
 
 
-* **Jaswanth** — Data Analyst Intern
+* **Deepati Jaswanth** — Data Analyst Intern
 
 
-* **Sekhar** — Data Analyst Intern
+* **Kolli Chandra Sekhar** — Data Analyst Intern
 
 
 
